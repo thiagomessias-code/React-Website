@@ -8,7 +8,7 @@ import Sustainability from './pages/sustainability'
 export default function MainRoutes() {
     return (
 <Routes>
-    <Route path='/' element={<Home/>}/>
+    <Route path='/React-Website' element={<Home/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/projects' element={<Projects/>}/>
     <Route path='/sustainability' element={<Sustainability/>}/>
