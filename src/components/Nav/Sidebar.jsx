@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 // Assets
 import CloseIcon from "../../assets/svg/CloseIcon";
 import LogoIcon from "../../assets/svg/LogoOk";
@@ -23,16 +23,29 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
       <UlStyle className="flexNullCenter flexColumn">
         <li className="semiBold font15 pointer">
           <Link
-            onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="home"
+            to="/"
             spy={true}
             smooth={true}
             offset={-60}
           >
-            Home
+            Hem
+          </Link>
+        </li>
+        <li className="semiBold font15 pointer">
+          <Link
+           
+            activeClass="active"
+            className="whiteColor"
+            style={{ padding: "10px 15px" }}
+            to="/about"
+            spy={true}
+            smooth={true}
+            offset={-60}
+          >
+             Om Oss
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -41,12 +54,12 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="services"
+            to="/projects"
             spy={true}
             smooth={true}
             offset={-60}
           >
-            Services
+            Projekt
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -55,26 +68,12 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="projects"
+            to="sustainability"
             spy={true}
             smooth={true}
             offset={-60}
           >
-            Projects
-          </Link>
-        </li>
-        <li className="semiBold font15 pointer">
-          <Link
-            onClick={() => toggleSidebar(!sidebarOpen)}
-            activeClass="active"
-            className="whiteColor"
-            style={{ padding: "10px 15px" }}
-            to="blog"
-            spy={true}
-            smooth={true}
-            offset={-60}
-          >
-            Blog
+            Hållbarhet
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -88,7 +87,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-60}
           >
-            Pricing
+            Partners
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -102,7 +101,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-60}
           >
-            Contact
+            Kontact
           </Link>
         </li>
       </UlStyle>
@@ -126,6 +125,7 @@ const Wrapper = styled.nav`
   width: 400px;
   height: 100vh;
   position: fixed;
+  background-color: #cbcbcb;
   top: 0;
   padding: 0 30px;
   right: ${(props) => (props.sidebarOpen ? "0px" : "-400px")};
