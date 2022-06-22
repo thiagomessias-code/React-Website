@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/thiagomessias-code/React-Website.git/static/css/main.2f98d459.chunk.css",
+    "main.js": "/thiagomessias-code/React-Website.git/static/js/main.41e2c4ca.chunk.js",
+    "main.js.map": "/thiagomessias-code/React-Website.git/static/js/main.41e2c4ca.chunk.js.map",
+    "runtime-main.js": "/thiagomessias-code/React-Website.git/static/js/runtime-main.a7bf3bb0.js",
+    "runtime-main.js.map": "/thiagomessias-code/React-Website.git/static/js/runtime-main.a7bf3bb0.js.map",
+    "static/css/2.b722ebce.chunk.css": "/thiagomessias-code/React-Website.git/static/css/2.b722ebce.chunk.css",
+    "static/js/2.d4ce3de7.chunk.js": "/thiagomessias-code/React-Website.git/static/js/2.d4ce3de7.chunk.js",
+    "static/js/2.d4ce3de7.chunk.js.map": "/thiagomessias-code/React-Website.git/static/js/2.d4ce3de7.chunk.js.map",
+    "static/js/3.1d21b9a8.chunk.js": "/thiagomessias-code/React-Website.git/static/js/3.1d21b9a8.chunk.js",
+    "static/js/3.1d21b9a8.chunk.js.map": "/thiagomessias-code/React-Website.git/static/js/3.1d21b9a8.chunk.js.map",
+    "index.html": "/thiagomessias-code/React-Website.git/index.html",
+    "static/css/2.b722ebce.chunk.css.map": "/thiagomessias-code/React-Website.git/static/css/2.b722ebce.chunk.css.map",
+    "static/css/main.2f98d459.chunk.css.map": "/thiagomessias-code/React-Website.git/static/css/main.2f98d459.chunk.css.map",
+    "static/js/2.d4ce3de7.chunk.js.LICENSE.txt": "/thiagomessias-code/React-Website.git/static/js/2.d4ce3de7.chunk.js.LICENSE.txt",
+    "static/media/01sus.62a5be44.jpg": "/thiagomessias-code/React-Website.git/static/media/01sus.62a5be44.jpg",
+    "static/media/02sus.39e7c1c2.jpg": "/thiagomessias-code/React-Website.git/static/media/02sus.39e7c1c2.jpg",
+    "static/media/03sus.e515d8eb.jpg": "/thiagomessias-code/React-Website.git/static/media/03sus.e515d8eb.jpg",
+    "static/media/1.4aa0fe3a.jpg": "/thiagomessias-code/React-Website.git/static/media/1.4aa0fe3a.jpg",
+    "static/media/2.02d8f4e0.jpg": "/thiagomessias-code/React-Website.git/static/media/2.02d8f4e0.jpg",
+    "static/media/city.5f0a8055.jpg": "/thiagomessias-code/React-Website.git/static/media/city.5f0a8055.jpg",
+    "static/media/logo01.f0f3765f.svg": "/thiagomessias-code/React-Website.git/static/media/logo01.f0f3765f.svg",
+    "static/media/logo02.ef3dc476.svg": "/thiagomessias-code/React-Website.git/static/media/logo02.ef3dc476.svg",
+    "static/media/logo03.ed39a486.svg": "/thiagomessias-code/React-Website.git/static/media/logo03.ed39a486.svg",
+    "static/media/logo04.d4601325.svg": "/thiagomessias-code/React-Website.git/static/media/logo04.d4601325.svg",
+    "static/media/logo05.e583f97d.svg": "/thiagomessias-code/React-Website.git/static/media/logo05.e583f97d.svg",
+    "static/media/logo06.7fcfefca.svg": "/thiagomessias-code/React-Website.git/static/media/logo06.7fcfefca.svg",
+    "static/media/service1.7fc2c5b3.jpg": "/thiagomessias-code/React-Website.git/static/media/service1.7fc2c5b3.jpg",
+    "static/media/slick-theme.css": "/thiagomessias-code/React-Website.git/static/media/slick.c94f7671.ttf",
+    "static/media/slider02.a155fc83.jpg": "/thiagomessias-code/React-Website.git/static/media/slider02.a155fc83.jpg",
+    "static/media/slider03.eb46d1a9.jpg": "/thiagomessias-code/React-Website.git/static/media/slider03.eb46d1a9.jpg",
+    "static/media/slider04.7a6489d6.jpg": "/thiagomessias-code/React-Website.git/static/media/slider04.7a6489d6.jpg",
+    "static/media/team1.5bb6aa0b.jpg": "/thiagomessias-code/React-Website.git/static/media/team1.5bb6aa0b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7bf3bb0.js",
+    "static/css/2.b722ebce.chunk.css",
+    "static/js/2.d4ce3de7.chunk.js",
+    "static/css/main.2f98d459.chunk.css",
+    "static/js/main.41e2c4ca.chunk.js"
+  ]
+}
