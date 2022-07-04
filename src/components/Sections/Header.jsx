@@ -4,10 +4,12 @@ import styled from "styled-components";
 import FullButton from "../Buttons/FullButton";
 // Assets
 import { Link } from "react-router-dom";
-import SlideImage1 from "../../assets/img/1.jpg";
-import SlideImage2 from "../../assets/img/slider/slider03.jpg";
-import SlideImage3 from "../../assets/img/slider/slider02.jpg";
-import SlideImage4 from "../../assets/img/slider/slider04.jpg";
+import SlideImage1 from "../../assets/img/slider/slider-1.jpg";
+import SlideImage2 from "../../assets/img/slider/slider-2.jpg";
+import SlideImage3 from "../../assets/img/slider/slider-3.jpg";
+import SlideImage4 from "../../assets/img/slider/slider-4.jpg";
+import SlideImage5 from "../../assets/img/slider/slider-5.jpg";
+import SlideImage6 from "../../assets/img/slider/slider-6.jpg";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
 
@@ -32,7 +34,8 @@ export default function Header() {
       <RightSide>
         <ImageWrapper>
 
-          
+  
+    
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner "style={{ width: "400px", borderRadius:10}}>
     <div class="carousel-item active">
@@ -47,6 +50,12 @@ export default function Header() {
     <div class="carousel-item">
     <img className="radius8 m-auto  p-0" src={SlideImage4} alt="office" style={{zIndex: 9, width: "400px", borderRadius:0}} />
     </div>
+    <div class="carousel-item">
+    <img className="radius8 m-auto  p-0" src={SlideImage5} alt="office" style={{zIndex: 9, width: "400px", borderRadius:0}} />
+    </div>
+    <div class="carousel-item">
+    <img className="radius8 m-auto  p-0" src={SlideImage6} alt="office" style={{zIndex: 9, width: "400px", borderRadius:0}} />
+    </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -59,7 +68,7 @@ export default function Header() {
 </div>
 
           
-          <QuoteWrapper className="flexCenter darkBg radius8">
+          <QuoteWrapper className="balon flexCenter darkBg radius8">
             <QuotesWrapper>
               <QuotesIcon />
             </QuotesWrapper>
@@ -70,9 +79,7 @@ export default function Header() {
               <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Stockholm</p>
             </div>
           </QuoteWrapper>
-          <DotsWrapper>
-            <Dots />
-          </DotsWrapper>
+          
         </ImageWrapper>
         <GreyDiv className="lightBg"></GreyDiv>
       </RightSide>
@@ -145,9 +152,16 @@ const ImageWrapper = styled.div`
   justify-content: flex-end;
   position: relative;
   z-index: 9;
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    border-radius: 50%;
+    background-color: #7620FF;
+    color: yellow;
+    cursor: pointer;
+  }
   @media (max-width: 960px) {
     width: 100%;
     justify-content: center;
+    margin-top: -30px;
   }
 `;
 const Img = styled.img`
@@ -168,6 +182,10 @@ const QuoteWrapper = styled.div`
   }
   @media (max-width: 560px) {
     bottom: -50px;
+    margin-bottom: 60px;
+    left: 30px;
+    
+   
   }
 `;
 const QuotesWrapper = styled.div`

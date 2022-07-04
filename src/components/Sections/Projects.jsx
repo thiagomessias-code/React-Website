@@ -94,7 +94,7 @@ export default function Projects() {
             </AddLeft>
             <AddRight>
               <h4 className="font15 semiBold">A few words about company</h4>
-              <h2 className="font40 extraBold">A Study of Creativity</h2>
+              <h2 className="font40 extraBold">Localization</h2>
               <p className="font12">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
                 diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.

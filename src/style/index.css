@@ -104,7 +104,7 @@
     width: 100%;
   }
   .active {
-    border-bottom: 2px solid #7620FF;
+    
     color: #7620FF;
   }
   .tag {
@@ -212,6 +212,7 @@
       font-size: 2.8rem;
     }
   }
+  
   /* BORDER RADIUS */
   .radius8 {
     border-radius: 1rem;
@@ -221,7 +222,7 @@
   }
   /* COLORS */
   .darkColor {
-    color: #0B093B;
+    color: #4f046f;
   }
   .purpleColor {
     color: #7620FF;
@@ -246,7 +247,10 @@
   }
   /* BACKGROUNDS */
   .darkBg {
-    background-color: #0B093B;
+    background-color: #38074e;
+  }
+  .darkBg2 {
+    background-color: #38074e49;
   }
   .purpleBg {
     background-color: #7620FF;

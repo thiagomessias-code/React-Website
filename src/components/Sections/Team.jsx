@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Img1 from '../../assets/img/slider/team1.jpg'
+import Img1 from '../../assets/img/slider/slider-4.jpg'
 
 class Team extends Component {
     render() {

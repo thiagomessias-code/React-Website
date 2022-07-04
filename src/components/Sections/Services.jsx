@@ -5,14 +5,15 @@ import ClientSlider from "../Elements/ClientSlider";
 import ServiceBox from "../Elements/ServiceBox";
 import FullButton from "../Buttons/FullButton";
 // Assets
-import AddImage1 from "../../assets/img/add/1.png";
-import AddImage2 from "../../assets/img/add/2.png";
-import AddImage3 from "../../assets/img/add/3.png";
-import AddImage4 from "../../assets/img/add/4.png";
-import Img1 from '../../assets/img/slider/service1.jpg'
 import Sus1 from "../../assets/img/sustentabilidade/01sus.jpg";
 import Sus2 from "../../assets/img/sustentabilidade/02sus.jpg";
 import Sus3 from "../../assets/img/sustentabilidade/03sus.jpg";
+
+
+import Img1 from '../../assets/img/services/service-1.jpg'
+import Img2 from "../../assets/img/services/service-2.jpg";
+import Img3 from "../../assets/img/services/service-3.jpg";
+import Img4 from "../../assets/img/services/service-4.jpg";
 
 export default function Services() {
   return (
@@ -29,7 +30,7 @@ export default function Services() {
           </HeaderInfo>
           <ServiceBoxRow className="flex">
             <ServiceBoxWrapper>
-              <img style={{maxWidth: "100px"}} src={Img1} alt="" />
+              <img className="radius8" style={{maxWidth: "130px" , marginLeft:"40px"}} src={Img4} alt="" />
               <ServiceBox
                 
                 title="Service är underhåll"
@@ -41,14 +42,14 @@ export default function Services() {
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
-            <img style={{maxWidth: "100px"}} src={Img1} alt="" />
+            <img className="radius8" style={{maxWidth: "130px" , marginLeft:"40px"}} src={Img4} alt="" />
               <ServiceBox
                 title="Entreprenad"
                 subtitle="Bogfelts har mångårig och gedigen erfarenhet av både små och stora entreprenader inom belysningsteknik. Med branscherfarenhet sedan 1989 har vi bred kompetens inom verksamheten med god kännedom om kundens behov och önskemål för ett välfungerande samarbete. Vi erbjuder kunden en optimerad totallösning för en kostnadseffektiv och driftsäker belysningsanläggning."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
-            <img style={{maxWidth: "100px"}} src={Img1} alt="" />
+            <img  className="radius8" style={{maxWidth: "130px" , marginLeft:"40px"}} src={Img4} alt="" />
               <ServiceBox
                 
                 title="Belysningsprodukter"
@@ -56,7 +57,7 @@ export default function Services() {
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
-            <img style={{maxWidth: "100px"}} src={Img1} alt="" />
+            <img className="radius8" style={{maxWidth: "130px" , marginLeft:"40px"}} src={Img4} alt="" />
               <ServiceBox  title="Tekniska tjänster" subtitle="Med vår samlade specialistkunskap inom belysningsteknik utför vi en besiktning av er anläggning för att upprätta en skräddarsydd drift - och underhållsplan med fokus på driftsäkerhet och god ekonomi. Efter genomförd kartläggning av systemet tar vi även fram en handlingsplan med kostnadsbesparande åtgärder.
 
 Vi utför även energikartläggningar, besiktningar, mätningar, ljusberäkningar och projektering." />

@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 // Assets
 import CloseIcon from "../../assets/svg/CloseIcon";
 import LogoIcon from "../../assets/svg/LogoOk";
+import FlagIcon from "../../assets/svg/suecia.png"
+
 
 export default function Sidebar({ sidebarOpen, toggleSidebar }) {
   return (
@@ -11,9 +13,13 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
       <SidebarHeader className="flexSpaceCenter">
         <div className="flexNullCenter">
           <LogoIcon />
-          <h1 className="whiteColor font20" style={{ marginLeft: "15px" }}>
+          <h1 className="whiteColor font20" style={{ marginLeft: "15px", marginRight: "7rem" }}>
             Bogfelts
           </h1>
+          <Link to="location" style={{ padding: "10px 30px 10px 0" }}>
+            <img src={FlagIcon} alt="" style={{width:"30px", cursor:"pointer"}} />
+              
+              </Link>
         </div>
         <CloseBtn onClick={() => toggleSidebar(!sidebarOpen)} className="animate pointer">
           <CloseIcon />
@@ -147,5 +153,10 @@ const UlStyle = styled.ul`
   padding: 40px;
   li {
     margin: 20px 0;
+  }
+`;
+const UlWrapperRight = styled.ul`
+  @media (max-width: 760px) {
+    display: none;
   }
 `;
