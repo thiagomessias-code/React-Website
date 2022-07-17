@@ -1,14 +1,22 @@
 import React from 'react'
 import SlideImage1 from "../../assets/img/1.jpg";
-
+import AddImage1 from "../../assets/img/group-1.jpg"
 
 class About extends React.Component {
     render (){
         return (
             <section class="about-section">
+                
+              <div className="row">
+                <div className="ImgCenter">
+                <img className="img-responsive d-block w-100" src={AddImage1} alt=""/>
+                <h1 className="font40 extraBold  title">Om oss</h1>
+                </div>
+              </div>
+            
+    
             <div class="container">
                 <div class="row clearfix">
-                    
              
                     <div class="content-column col-md-6 col-sm-12 col-xs-12">
                         <div class="inner-column">
@@ -42,8 +50,10 @@ class About extends React.Component {
     
         )
     }
+    
    
 }
+
 
 
 export default About;

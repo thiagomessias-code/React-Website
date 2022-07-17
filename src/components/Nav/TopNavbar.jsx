@@ -32,7 +32,7 @@ export default function TopNavbar() {
           <Link to="/" className="pointer flexNullCenter"  smooth={true}>
             <img src="/assets/svg/LogoIcon.svg" alt="" />
             <LogoIcon />
-            <h1 style={{ marginLeft: "1px", fontSize: "20px" }} className="font20 extraBold">
+            <h1 style={{ marginLeft: "10px", fontSize: "20px", textAlign:"center" }} className="font20 extraBold">
               Bogfelts
             </h1>
           </Link>
@@ -41,39 +41,39 @@ export default function TopNavbar() {
           </BurderWrapper>
           <UlWrapper className="flexNullCenter">
             <li className="semiBold font15 pointer text-dark">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="/" spy={true} smooth={true} offset={-80}>
+              <Link activeClass="active" style={{ padding: "10px 15px" }} exact to="/" spy={true} smooth={true} offset={-80}>
               Hem
               </Link>
             </li>
             <li className="semiBold font15 pointer">
-              <Link  activeClass="active" style={{ padding: "10px 15px" }} to="/about" spy={true} smooth={true} offset={-80}>
+              <Link  activeClass="active" style={{ padding: "10px 15px" }} exact to="/about"  spy={true} smooth={true} offset={-80}>
               Om Oss
               </Link>
             </li>
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="projects" spy={true} smooth={true} offset={-80}>
+              <Link activeClass="active" style={{ padding: "10px 15px" }} to="/projects" exact spy={true} smooth={true} offset={-80}>
               Projekt
               </Link>
             </li>
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="sustainability" spy={true} smooth={true} offset={-80}>
+              <Link activeClass="active" style={{ padding: "10px 15px" }} to="/sustainability" spy={true} smooth={true} offset={-80}>
               Hållbarhet
               </Link>
             </li>
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="pricing" spy={true} smooth={true} offset={-80}>
+              <Link activeClass="active" style={{ padding: "10px 15px" }} to="/pricing" exact spy={true} smooth={true} offset={-80}>
                 Partners
               </Link>
             </li>
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="contact" spy={true} smooth={true} offset={-80}>
+              <Link activeClass="active" style={{ padding: "10px 15px" }} to="/contact" exact spy={true} smooth={true} offset={-80}>
                 Kontact
               </Link>
             </li>
           </UlWrapper>
           <UlWrapperRight className="flexNullCenter">
             <li className="semiBold font15 pointer">
-              <Link to="location" style={{ padding: "10px 30px 10px 0" }}>
+              <Link to="/location" exact style={{ padding: "10px 30px 10px 0" }}>
               Jobba med oss <img src={FlagIcon} alt="" style={{width:"30px", cursor:"pointer", marginLeft:"5px"}} />
               
               </Link>
@@ -110,6 +110,11 @@ const BurderWrapper = styled.button`
 `;
 const UlWrapper = styled.ul`
   display: flex;
+  li {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  
   
   @media (max-width: 760px) {
     display: none;

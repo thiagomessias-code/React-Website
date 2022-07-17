@@ -74,7 +74,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="sustainability"
+            to="/sustainability"
             spy={true}
             smooth={true}
             offset={-60}
@@ -88,7 +88,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="pricing"
+            to="/pricing"
             spy={true}
             smooth={true}
             offset={-60}
@@ -102,7 +102,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="contact"
+            to="/contact"
             spy={true}
             smooth={true}
             offset={-60}

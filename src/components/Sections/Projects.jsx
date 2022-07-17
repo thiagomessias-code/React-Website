@@ -11,6 +11,7 @@ import ProjectImg4 from "../../assets/img/projects/2.jpg";
 import ProjectImg5 from "../../assets/img/projects/2.jpg";
 import ProjectImg6 from "../../assets/img/projects/2.jpg";
 import AddImage2 from "../../assets/img/add/add2.png";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
   return (
@@ -88,20 +89,21 @@ export default function Projects() {
             <AddLeft>
               <AddLeftInner>
                 <ImgWrapper className="flexCenter">
-                  <img className="radius8" src={AddImage2} alt="add" />
+                  <img className="radius8" src={ProjectImg1} alt="add" />
                 </ImgWrapper>
               </AddLeftInner>
             </AddLeft>
             <AddRight>
               <h4 className="font15 semiBold">A few words about company</h4>
-              <h2 className="font40 extraBold">Localization</h2>
+              <h2 className="font40 extraBold">Stockholms</h2>
               <p className="font12">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              i Stockholms län, Mälardalen och Växjö, med kontor i Danderyd och Örebro
               </p>
               <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
                 <div style={{ width: "190px" }}>
-                  <FullButton title="Get Started" action={() => alert("clicked")} />
+                  <Link to="/contact">
+                    <FullButton title="Get Started" action={() => alert("clicked")} />
+                  </Link>
                 </div>
                 <div style={{ width: "190px", marginLeft: "15px" }}>
                   <FullButton title="Contact Us" action={() => alert("clicked")} border />
