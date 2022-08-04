@@ -9,6 +9,7 @@ import Footer from "../components/Sections/Footer"
 import Team from "../components/Sections/Team";
 import { Video } from "../components/Sections/VideoSection";
 import Service from "../components/Sections/Services/index";
+import BannerSus from "../components/Sections/Services/BannerSus";
 
 export default function Landing() {
   return (
@@ -17,6 +18,7 @@ export default function Landing() {
       <Header />
       <Service/>
       <Projects />
+      <BannerSus/>
       <Team/>
       <Video/>
       <Footer />

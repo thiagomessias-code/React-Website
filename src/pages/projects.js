@@ -11,7 +11,11 @@ export default function Landing() {
   return (
     <>
       <TopNavbar/>
-      <Projects/>
+      <br/>
+      <br/>
+      <br/>
+      <br/><br/>
+      <Projects className="text-center"/>
       <Footer />
     </>
   );

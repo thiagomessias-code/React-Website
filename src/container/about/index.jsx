@@ -1,6 +1,12 @@
 import React from 'react'
 import SlideImage1 from "../../assets/img/1.jpg";
 import AddImage1 from "../../assets/img/group-1.jpg"
+import {AddLeft,AddLeftInner,AddRight,Advertising,ButtonsRow,ImgWrapper,} from './style'
+
+import Perfil from "../../assets/img/projects/perfil.jpg";
+import FullButton from "../../components/Buttons/FullButton";
+
+import { Link } from 'react-router-dom';
 
 class About extends React.Component {
     render (){
@@ -26,7 +32,7 @@ class About extends React.Component {
                             </div>
                             <div class="text">Bogfelts har mångårig och gedigen erfarenhet av både små och stora entreprenader inom belysningsteknik. Med branscherfarenhet sedan 1989 har vi bred kompetens inom verksamheten med god kännedom om kundens behov och önskemål för ett välfungerande samarbete. Vi erbjuder kunden en optimerad totallösning för en kostnadseffektiv och driftsäker belysningsanläggning.</div>
                             <div class="email">Request Quote: <span class="theme_color">freequote@gmail.com</span></div>
-                            <a href="about.html" class="theme-btn btn-style-three">Read More</a>
+                           
                         </div>
                     </div>
                     
@@ -44,7 +50,27 @@ class About extends React.Component {
                     
                 </div>
             </div>
-            
+            <div className="lightBg">
+        <div className="container">
+          <Advertising className="flexSpaceCenter">
+            <AddLeft>
+              <AddLeftInner>
+                <ImgWrapper className="flexCenter">
+                  <img className="radius8" src={Perfil} alt="add" />
+                </ImgWrapper>
+              </AddLeftInner>
+            </AddLeft>
+            <AddRight>
+              <h4 className="font15 semiBold">Joakim Bogfefelts</h4>
+              <h2 className="font40 extraBold">Co. Grundarer</h2>
+              <p className="font12">
+              Företaget grundades 1989 i Stokolm, Sverige, av elektroingenjören Joakim Bogfelts. Företaget startade i en liten verkstad i hans hem när han gick på college och är idag det största offentliga belysningsunderhållsföretaget i landet, även ledande inom försäljning av el. produkter, med 6 filialer och mer än 120 anställda. 
+              </p>
+             
+            </AddRight>
+          </Advertising>
+        </div>
+      </div>
         
         </section>
     

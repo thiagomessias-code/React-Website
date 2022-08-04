@@ -4,14 +4,14 @@ import styled from "styled-components";
 import FullButton from "../Buttons/FullButton";
 // Assets
 import { Link } from "react-router-dom";
-import SlideImage1 from "../../assets/img/slider/slider-1.jpg";
-import SlideImage2 from "../../assets/img/slider/slider-2.jpg";
-import SlideImage3 from "../../assets/img/slider/slider-3.jpg";
-import SlideImage4 from "../../assets/img/slider/slider-4.jpg";
-import SlideImage5 from "../../assets/img/slider/slider-5.jpg";
-import SlideImage6 from "../../assets/img/slider/slider-6.jpg";
+import SlideImage1 from "../../assets/img/slider/01.jpg";
+import SlideImage2 from "../../assets/img/slider/02.jpg";
+import SlideImage3 from "../../assets/img/slider/03.jpg";
+import SlideImage4 from "../../assets/img/slider/04.jpg";
+import SlideImage5 from "../../assets/img/slider/05.jpg";
+import SlideImage6 from "../../assets/img/slider/06.jpg";
 import QuotesIcon from "../../assets/svg/Quotes";
-import Dots from "../../assets/svg/Dots";
+
 
 
 export default function Header() {
@@ -33,28 +33,25 @@ export default function Header() {
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-
-  
-    
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner "style={{ width: "400px", borderRadius:10}}>
+  <div class="carousel-inner "style={{ width: "500px", borderRadius:10}}>
     <div class="carousel-item active">
-    <img className="radius8 m-auto  p-0" src={SlideImage1} alt="office" style={{zIndex: 9, width: "400px", borderRadius:0}} />
+    <img className="radius8 m-auto  p-0" src={SlideImage1} alt="office" style={{zIndex: 9, width: "500px", height: 590, borderRadius:0}} />
     </div>
     <div class="carousel-item">
-    <img className="radius8 m-auto  p-0" src={SlideImage2} alt="office" style={{zIndex: 9, width: "400px", borderRadius:0}} />
+    <img className="radius8 m-auto  p-0" src={SlideImage2} alt="office" style={{zIndex: 9, width: "500px", height: 590, borderRadius:0}} />
     </div>
     <div class="carousel-item">
-    <img className="radius8 m-auto  p-0" src={SlideImage3} alt="office" style={{zIndex: 9, width: "400px", borderRadius:0}} />
+    <img className="radius8 m-auto  p-0" src={SlideImage3} alt="office" style={{zIndex: 9, width: "500px", height: 590, borderRadius:0}} />
     </div>
     <div class="carousel-item">
-    <img className="radius8 m-auto  p-0" src={SlideImage4} alt="office" style={{zIndex: 9, width: "400px", borderRadius:0}} />
+    <img className="radius8 m-auto  p-0" src={SlideImage4} alt="office" style={{zIndex: 9, width: "500px", height: 590, borderRadius:0}} />
     </div>
     <div class="carousel-item">
-    <img className="radius8 m-auto  p-0" src={SlideImage5} alt="office" style={{zIndex: 9, width: "400px", borderRadius:0}} />
+    <img className="radius8 m-auto  p-0" src={SlideImage5} alt="office" style={{zIndex: 9, width: "500px", height: 590, borderRadius:0}} />
     </div>
     <div class="carousel-item">
-    <img className="radius8 m-auto  p-0" src={SlideImage6} alt="office" style={{zIndex: 9, width: "400px", borderRadius:0}} />
+    <img className="radius8 m-auto  p-0" src={SlideImage6} alt="office" style={{zIndex: 9, width: "500px", height: 590, borderRadius:0}} />
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -107,7 +104,7 @@ const LeftSide = styled.div`
     text-align: center;
   }
   @media (max-width: 560px) {
-    margin: 80px 0 50px 0;
+    margin: 80px 0 150px 0;
   }
 `;
 const RightSide = styled.div`
@@ -166,7 +163,7 @@ const ImageWrapper = styled.div`
 `;
 const Img = styled.img`
   @media (max-width: 560px) {
-    width: 80%;
+    width: 50%;
     height: auto;
   }
 `;
@@ -193,17 +190,6 @@ const QuotesWrapper = styled.div`
   left: -20px;
   top: -10px;
 `;
-const DotsWrapper = styled.div`
-  position: absolute;
-  right: -100px;
-  bottom: 100px;
-  z-index: 2;
-  @media (max-width: 960px) {
-    right: 100px;
-  }
-  @media (max-width: 560px) {
-    display: none;
-  }
-`;
+
 
 

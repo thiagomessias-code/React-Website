@@ -17,7 +17,7 @@ export default function Contact() {
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6">
-            <h6>About</h6>
+            <h6>Handla om</h6>
             <p class="text-justify">Vi på Bogfelts är ett serviceinriktat företag som alltid har kundens mervärde i fokus.</p>
           </div>
 
