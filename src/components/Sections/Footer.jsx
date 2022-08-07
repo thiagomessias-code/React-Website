@@ -17,28 +17,36 @@ export default function Contact() {
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6">
-            <h6>Handla om</h6>
+            <h6 style={{ color:"  #38074e"}}>Handla om</h6>
             <p class="text-justify">Vi på Bogfelts är ett serviceinriktat företag som alltid har kundens mervärde i fokus.</p>
           </div>
 
           <div class="col-xs-6 col-md-3">
-            <h6>Categories</h6>
+            <h6 style={{ color:"  #38074e"}}>Categories</h6>
             <ul class="footer-links">
-              <li><a href="http://scanfcode.com/category/c-language/">Projects</a></li>
-              <li><a href="http://scanfcode.com/category/front-end-development/">Negocios</a></li>
-              <li><a href="http://scanfcode.com/category/back-end-development/">Sustentabilidade</a></li>
-              <li><a href="http://scanfcode.com/category/android/">Faça parte</a></li>
+             
+              <Link to="about">
+                <li><a >Handla Om</a></li>
+              </Link>
+              <Link to="projects">
+                <li><a>Projekt</a></li>
+              </Link>
+              <Link to="sustainability">
+                <li><a>Hållbarhet</a></li>
+              </Link>
+              <Link to="partners">
+                <li><a>Partners</a></li>
+              </Link>
             </ul>
           </div>
 
           <div class="col-xs-6 col-md-3">
-            <h6>Quick Links</h6>
+            <h6 style={{ color:"  #38074e"}}>Quick Links</h6>
             <ul class="footer-links">
-              <li><a href="http://scanfcode.com/about/">About Us</a></li>
-              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+              <li><a>Contact Us (00) 33 969854222</a></li>
+              <Link to="privacy">
+                <li><a>Privacy Policy</a></li>
+              </Link>
             </ul>
           </div>
         </div>

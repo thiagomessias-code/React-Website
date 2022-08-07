@@ -10,9 +10,7 @@ import Sus2 from "../../../assets/img/sustentabilidade/02sus.jpg";
 import Sus3 from "../../../assets/img/sustentabilidade/03sus.jpg";
 
 
-import Img1 from '../../../assets/img/services/service-1.jpg'
-import Img2 from "../../../assets/img/services/service-2.jpg";
-import Img3 from "../../../assets/img/services/service-3.jpg";
+
 import Img4 from "../../../assets/img/services/service-4.jpg";
 
 export default function Services() {

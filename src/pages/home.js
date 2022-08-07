@@ -9,7 +9,7 @@ import Footer from "../components/Sections/Footer"
 import Team from "../components/Sections/Team";
 import { Video } from "../components/Sections/VideoSection";
 import Service from "../components/Sections/Services/index";
-import BannerSus from "../components/Sections/Services/BannerSus";
+import BannerSus from "../components/Sections/Banner/BannerSus";
 
 export default function Landing() {
   return (

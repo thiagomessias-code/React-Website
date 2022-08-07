@@ -20,7 +20,7 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">30 år  <span style={{color: "blueviolet"}}>Erfarenhet</span></h1>
+          <h1 className="extraBold font60">30 år  <span style={{color: "#4f046f"}}>Erfarenhet</span></h1>
           <HeaderP className="font16 semiBold">
           Vi på Bogfelts är ett serviceinriktat företag som alltid har kundens mervärde i fokus.
           </HeaderP>

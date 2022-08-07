@@ -23,7 +23,7 @@ class Team extends Component {
 						<div class="person-image">
 							<img src={Img1} alt=""/>
 							<span class="icon">
-								<i class="fab fa-html5"></i>
+								<i class=""></i>
 							</span>
 						</div>
 						<div class="person-info">
@@ -38,12 +38,12 @@ class Team extends Component {
 						<div class="person-image">
 						<img src={Img1} alt=""/>
 							<span class="icon">
-								<i class="fab fa-wordpress-simple"></i>
+								<i class=""></i>
 							</span>
 						</div>
 						<div class="person-info">
 							<h3 class="full-name">Joakim Bogfelts</h3>
-							<span class="speciality">Director</span>
+							<span class="speciality">Direktör</span>
 						</div>
 					</div>
 				</div>
@@ -53,7 +53,7 @@ class Team extends Component {
 						<div class="person-image">
 						<img src={Img1} alt=""/>
 							<span class="icon">
-								<i class="fab fa-angular"></i>
+								<i class=""></i>
 							</span>
 						</div>
 						<div class="person-info">
@@ -68,7 +68,7 @@ class Team extends Component {
 						<div class="person-image">
 						<img src={Img1} alt=""/>
 							<span class="icon">
-								<i class="fab fa-js"></i>
+								<i class=""></i>
 							</span>
 						</div>
 						<div class="person-info">
