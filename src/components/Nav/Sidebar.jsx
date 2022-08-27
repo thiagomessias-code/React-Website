@@ -16,8 +16,8 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           <h1 className="whiteColor font20" style={{ marginLeft: "15px", marginRight: "7rem" }}>
             Bogfelts
           </h1>
-          <Link to="location" style={{ padding: "10px 30px 10px 0" }}>
-            <img src={FlagIcon} alt="" style={{width:"30px", cursor:"pointer"}} />
+          <Link to="/maps" style={{ padding: "10px 30px 10px 0" }}>
+            <img src={FlagIcon} alt="" style={{width:"30px", cursor:"pointer", marginLeft: "-10px"}} />
               
               </Link>
         </div>

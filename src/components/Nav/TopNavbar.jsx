@@ -36,7 +36,7 @@ export default function TopNavbar() {
               Bogfelts
             </h1>
           </Link>
-          <BurderWrapper className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
+          <BurderWrapper style={{marginRight:"50px"}} className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
             <BurgerIcon />
           </BurderWrapper>
           <UlWrapper className="flexNullCenter">
@@ -73,7 +73,7 @@ export default function TopNavbar() {
           </UlWrapper>
           <UlWrapperRight className="flexNullCenter">
             <li className="semiBold font15 pointer">
-              <Link to="/location" exact style={{ padding: "10px 30px 10px 0" }}>
+              <Link to="/maps" exact style={{ padding: "10px 30px 10px 0" }}>
               Jobba med oss <img src={FlagIcon} alt="" style={{width:"30px", cursor:"pointer", marginLeft:"5px"}} />
               
               </Link>

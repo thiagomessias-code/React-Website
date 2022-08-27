@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-scroll";
+import {Link} from 'react-router-dom'
 // Assets
 import LogoImg from "../../assets/svg/LogoOk";
 
@@ -25,16 +25,16 @@ export default function Contact() {
             <h6 style={{ color:"  #38074e"}}>Categories</h6>
             <ul class="footer-links">
              
-              <Link to="about">
+              <Link to="/about">
                 <li><a >Handla Om</a></li>
               </Link>
-              <Link to="projects">
+              <Link to="/projects">
                 <li><a>Projekt</a></li>
               </Link>
-              <Link to="sustainability">
+              <Link to="/sustainability">
                 <li><a>Hållbarhet</a></li>
               </Link>
-              <Link to="partners">
+              <Link to="/partners">
                 <li><a>Partners</a></li>
               </Link>
             </ul>
