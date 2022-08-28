@@ -14,7 +14,7 @@ class About extends React.Component {
             <section class="about-section">
                 
               <div className="row">
-                <div className="ImgCenter">
+                <div className="ImgCentercol-md-12">
                 <img className="img-responsive d-block w-100" src={AddImage1} alt=""/>
                 <h1 className="font40 extraBold  title">Om oss</h1>
                 </div>

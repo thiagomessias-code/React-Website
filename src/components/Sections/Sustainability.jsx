@@ -17,7 +17,7 @@ export default function Sustaibility() {
         <div className="container-fluid">
           <HeaderInfo>
               <div className="row">
-                <div className="ImgCenter ">
+                <div className="ImgCenter col-md-12">
                 <img className="img-responsive d-block w-100" src={AddImage1} alt=""/>
                 <h1 className="font40 extraBold  title">Hållbarhet</h1>
                 </div>
