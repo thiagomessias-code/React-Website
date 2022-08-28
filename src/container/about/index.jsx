@@ -21,7 +21,7 @@ class About extends React.Component {
               </div>
             
     
-            <div class="container">
+            <div class="container" data-aos="fadeInUp" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
                 <div class="row clearfix">
              
                     <div class="content-column col-md-6 col-sm-12 col-xs-12">

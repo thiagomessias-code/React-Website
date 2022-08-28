@@ -1,22 +1,17 @@
 import React from "react";
 import styled from "styled-components";
-// Components
-import ClientSlider from "../Elements/ClientSlider";
-import ServiceBox from "../Elements/ServiceBox";
-import FullButton from "../Buttons/FullButton";
+
 // Assets
 import AddImage1 from "../../assets/img/sustentabilidade/city.jpg";
-import AddImage2 from "../../assets/img/add/2.png";
-import AddImage3 from "../../assets/img/add/3.png";
-import AddImage4 from "../../assets/img/add/4.png";
 
 import Sus1 from "../../assets/img/sustentabilidade/01sus.jpg";
 import Sus2 from "../../assets/img/sustentabilidade/02sus.jpg";
 import Sus3 from "../../assets/img/sustentabilidade/03sus.jpg";
+import Sus4 from "../../assets/img/contact1.jpg"
 
 export default function Sustaibility() {
   return (
-    <Wrapper id="services">
+    <Wrapper id="services"data-aos="fade-fadeInUp" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
      
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container-fluid">
@@ -65,7 +60,7 @@ FÖR EN BÄTTRE VÄRLD</h2>
                       <img src={Sus3} alt="office" />
                     </AddImgWrapp3>
                     <AddImgWrapp4>
-                      <img src={Sus1} alt="office" />
+                      <img src={Sus4} alt="office" />
                     </AddImgWrapp4>
                   </div>
                 </AddRightInner>

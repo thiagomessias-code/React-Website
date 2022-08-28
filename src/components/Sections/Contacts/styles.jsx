@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 export const Contacts = styled.div`
+
+background-image: url("../../../assets/img/contact1.jpg");
+
+
 .list-group-item {
     width: 100%;
     margin-bottom: 10px;
@@ -55,22 +59,7 @@ export const Form = styled.form`
     padding: 30px 0;
   }
 `;
- export const ButtonInput = styled.input`
-  border: 1px solid #7620ff;
-  background-color: #7620ff;
-  width: 100%;
-  padding: 15px;
-  outline: none;
-  color: #fff;
-  :hover {
-    background-color: #580cd2;
-    border: 1px solid #7620ff;
-    color: #fff;
-  }
-  @media (max-width: 991px) {
-    margin: 0 auto;
-  }
-`;
+ 
  export const ContactImgBox = styled.div`
   max-width: 180px; 
   align-self: flex-end; 

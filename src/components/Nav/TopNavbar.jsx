@@ -32,7 +32,7 @@ export default function TopNavbar() {
           <Link to="/" className="pointer flexNullCenter"  smooth={true}>
             <img src="/assets/svg/LogoIcon.svg" alt="" />
             <LogoIcon />
-            <h1 style={{ marginLeft: "10px", fontSize: "20px", textAlign:"center" }} className="font20 extraBold">
+            <h1 style={{ marginLeft: "10px", fontSize: "25px", textAlign:"center" , color: "#38074e"}} className="font20 extraBold">
               Bogfelts
             </h1>
           </Link>

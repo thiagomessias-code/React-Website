@@ -4,7 +4,7 @@ import Img1 from '../../assets/img/slider/team.jpg'
 class Team extends Component {
     render() {
         return (
-	<section class="section-team">
+	<section class="section-team" >
 		<div class="container">
 			
 			<div class="row justify-content-center text-center">
@@ -16,7 +16,7 @@ class Team extends Component {
 				</div>
 			</div>
 			
-			<div class="row">
+			<div class="row" data-aos="fadeInUp" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
 				
 				<div class="col-sm-6 col-lg-4 col-xl-3">
 					<div class="single-person">

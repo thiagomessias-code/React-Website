@@ -17,10 +17,10 @@ import { Link } from "react-router-dom";
 
 export default function Projects() {
   return (
-    <Wrapper id="projects">
+    <Wrapper id="projects" data-aos="fadeInUp" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
       <div className="whiteBg">
         <div className="container">
-          <HeaderInfo>
+          <HeaderInfo >
             <h1 className="font40 extraBold">Upptäck våra projekt</h1>
             <p className="font13">
             Vi har ett utbildat team och modern utrustning för att möta alla projekt.
@@ -79,7 +79,7 @@ export default function Projects() {
             </div>
           </div>
           <div className="row flexCenter">
-            <div style={{ margin: "50px 0", width: "200px" }}>
+            <div style={{ margin: "50px", width: "200px" }}>
               
             </div>
           </div>

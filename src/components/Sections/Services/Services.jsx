@@ -1,4 +1,8 @@
-import React from "react";
+import React, {useEffect} from "react";
+
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 import {AddImgWrapp2,AddImgWrapp1,AddImgWrapp3,AddImgWrapp4,AddLeft,AddRight,AddRightInner,Advertising,ButtonsRow,HeaderInfo,ServiceBoxRow,ServiceBoxWrapper,Wrapper} from "./style";
 // Components
 import ClientSlider from "../../Elements/ClientSlider";
@@ -14,8 +18,12 @@ import Sus3 from "../../../assets/img/sustentabilidade/03sus.jpg";
 import Img4 from "../../../assets/img/services/service-4.jpg";
 
 export default function Services() {
+  useEffect(() => {
+    Aos.init();
+  },[])
   return (
-    <Wrapper id="services">
+    
+    <Wrapper id="services " >
      
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">

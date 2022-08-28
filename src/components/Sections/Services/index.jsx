@@ -1,11 +1,16 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import { Container } from './styles'
 export default function Service() {
+  useEffect(() => {
+    Aos.init();
+  },[])
   return (
     <Container>
- <div class="container">
+ <div class="container"data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
       <h1>Våra TJänster</h1>
-      <div class="row">
+      <div class="row"  >
         <div class="service">
         <i class="fa-solid fa-wrench"></i>
           <h2>Service är underhåll</h2>
