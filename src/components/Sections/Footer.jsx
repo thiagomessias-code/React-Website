@@ -41,11 +41,21 @@ export default function Contact() {
           </div>
 
           <div class="col-xs-6 col-md-3">
-            <h6 style={{ color:"  #38074e"}}>Quick Links</h6>
+            <h6 style={{ color:"  #38074e"}}>Kontact</h6>
             <ul class="footer-links">
-              <li><a>Contact Us (00) 33 969854222</a></li>
-              <Link to="privacy">
+              <li><a>070 944 49 50</a></li>
+              <li><a href="">info@bogfelts.se</a></li>
+              
+            </ul>
+          </div>
+          <div>
+            <hr />
+          <ul class="footer-links"  style={{textAlign:"right"}}>
+              <Link to="/privacy">
                 <li><a>Privacy Policy</a></li>
+              </Link>
+              <Link to="/terms">
+                <li><a>Terms of Use</a></li>
               </Link>
             </ul>
           </div>
@@ -57,9 +67,9 @@ export default function Contact() {
 
 
           <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class="social-icons">
-              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <ul class="social-icons" style={{textAlign:"right"}}>
+              <li><a class="facebook" href="https://www.facebook.com/bogfelts.entrepenad" target="external"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com/search?q=bogfelts&src=typd" target="external"><i class="fa fa-twitter"></i></a></li>
               <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
               <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
             </ul>
@@ -79,7 +89,7 @@ export default function Contact() {
               </h1>
             </Link>
             <StyleP className="whiteColor font13">
-              © {getCurrentYear()} - <span className="purpleColor font13">Bogfelts</span> All Right Reserved
+              © {getCurrentYear()} - <span className="purpleColor font13">Bogfelts </span>All rights reserved
             </StyleP>
 
             <Link className="whiteColor animate pointer font13" to="home" smooth={true} offset={-80}>

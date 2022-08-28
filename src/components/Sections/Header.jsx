@@ -10,6 +10,8 @@ import SlideImage3 from "../../assets/img/slider/03.jpg";
 import SlideImage4 from "../../assets/img/slider/04.jpg";
 import SlideImage5 from "../../assets/img/slider/05.jpg";
 import SlideImage6 from "../../assets/img/slider/06.jpg";
+import SlideImage7 from "../../assets/img/slider/slider-7.jpg";
+import SlideImage8 from "../../assets/img/slider/slider-8.jpg";
 import QuotesIcon from "../../assets/svg/Quotes";
 
 
@@ -36,6 +38,9 @@ export default function Header() {
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner "style={{ width: "500px", borderRadius:10}}>
     <div class="carousel-item active">
+    <img className="radius8 m-auto  p-0" src={SlideImage8} alt="office" style={{zIndex: 9, width: "500px", height: 590, borderRadius:0}} />
+    </div>
+    <div class="carousel-item">
     <img className="radius8 m-auto  p-0" src={SlideImage1} alt="office" style={{zIndex: 9, width: "500px", height: 590, borderRadius:0}} />
     </div>
     <div class="carousel-item">
@@ -43,6 +48,9 @@ export default function Header() {
     </div>
     <div class="carousel-item">
     <img className="radius8 m-auto  p-0" src={SlideImage3} alt="office" style={{zIndex: 9, width: "500px", height: 590, borderRadius:0}} />
+    </div>
+    <div class="carousel-item">
+    <img className="radius8 m-auto  p-0" src={SlideImage7} alt="office" style={{zIndex: 9, width: "500px", height: 590, borderRadius:0}} />
     </div>
     <div class="carousel-item">
     <img className="radius8 m-auto  p-0" src={SlideImage4} alt="office" style={{zIndex: 9, width: "500px", height: 590, borderRadius:0}} />

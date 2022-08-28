@@ -18,7 +18,6 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           </h1>
           <Link to="/maps" style={{ padding: "10px 30px 10px 0" }}>
             <img src={FlagIcon} alt="" style={{width:"30px", cursor:"pointer", marginLeft: "-10px"}} />
-              
               </Link>
         </div>
         <CloseBtn onClick={() => toggleSidebar(!sidebarOpen)} className="animate pointer">
@@ -116,7 +115,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
 }
 
 const Wrapper = styled.nav`
-  width: 400px;
+  width: 300px;
   height: 100vh;
   position: fixed;
   background-color: #cbcbcb;
@@ -125,11 +124,13 @@ const Wrapper = styled.nav`
   right: ${(props) => (props.sidebarOpen ? "0px" : "-400px")};
   z-index: 9999;
   @media (max-width: 400px) {
-    width: 100%;
+    width: 85%;
   }
 `;
 const SidebarHeader = styled.div`
   padding: 20px 0;
+  
+
 `;
 const CloseBtn = styled.button`
   border: 0px;

@@ -73,5 +73,6 @@ export const ImgWrapper = styled.div`
   }
   @media (max-width: 400px) {
     padding: 0;
+    width:90%
   }
 `;

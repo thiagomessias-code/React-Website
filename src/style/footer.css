@@ -8,7 +8,7 @@
     .footer .row{
     width:100%;
     margin:1% 0%;
-    padding:0.6% 0%;
+    padding:0.0% 0%;
     color:gray;
     font-size:0.8em;
     }
@@ -30,7 +30,7 @@
     
     .footer .row ul li{
     display:inline-block;
-    margin:0px 30px;
+    margin:0px 10px;
     }
     
     .footer .row a i{
