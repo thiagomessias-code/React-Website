@@ -1,8 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import {Link} from 'react-router-dom'
+import { animateScroll } from "react-scroll";
 // Assets
 import LogoImg from "../../assets/svg/LogoOk";
+import BackToTop from "../Buttons/BackToTop";
 
 export default function Contact() {
 
@@ -92,9 +94,7 @@ export default function Contact() {
               © {getCurrentYear()} - <span className="purpleColor font13">Bogfelts </span>All rights reserved
             </StyleP>
 
-            <Link className="whiteColor animate pointer font13" to="home" smooth={true} offset={-80}>
-              Back to top
-            </Link>
+            <BackToTop/>
           </InnerWrapper>
         </div>
       </div>
