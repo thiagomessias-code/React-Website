@@ -39,7 +39,7 @@ export default function Sustaibility() {
                 <h4 className="font15 semiBold">Hållbarhet består i att bygga med framtiden i åtanke.</h4>
                 <h2 className="font40 extraBold">INVESTER
 FÖR EN BÄTTRE VÄRLD</h2>
-                <p className="font12">
+                <p className="font15">
                 Mer än av ekonomiska skäl har effektiva system potential att positivt påverka familjens budget och miljön. Därmed minskar behovet av att producera energi i stora mängder, vilket sparar naturresurser och minimerar problem i distributionsnätet.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit asperiores sint iure facilis tempora sapiente, ullam aperiam aliquam rem nihil! Officia deserunt et eum nostrum id ducimus quia minus! Repellat?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque vel iure aperiam blanditiis. Voluptate optio officiis velit natus, ea sit eum, maiores ad dolores, amet excepturi porro recusandae quidem non!
                 </p>
