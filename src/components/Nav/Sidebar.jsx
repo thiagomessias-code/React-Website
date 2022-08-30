@@ -17,7 +17,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             Bogfelts
           </h1>
           <Link to="/maps" style={{ padding: "10px 30px 10px 0" }}>
-            <img src={FlagIcon} alt="" style={{width:"30px", cursor:"pointer", marginLeft: "-10px"}} />
+            <img src={FlagIcon} alt="" style={{width:"30px", cursor:"pointer", margin:"auto"}} />
               </Link>
         </div>
         <CloseBtn onClick={() => toggleSidebar(!sidebarOpen)} className="animate pointer">

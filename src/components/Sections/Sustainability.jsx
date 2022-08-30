@@ -14,7 +14,7 @@ export default function Sustaibility() {
     <Wrapper id="services"data-aos="fade-fadeInUp" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
      
       <div className="whiteBg" style={{ padding: "60px 0" }}>
-        <div className="container-fluid">
+        <div className="" style={{margin:0}}>
           <HeaderInfo>
               <div className="row">
                 <div className="ImgCenter col-md-12">
@@ -26,11 +26,6 @@ export default function Sustaibility() {
            
     
           </HeaderInfo>
-          <ServiceBoxRow className="flex">
-          
-               
-           
-          </ServiceBoxRow>
         </div>
         <div className="lightBg">
           <div className="container">

@@ -36,7 +36,7 @@ export default function TopNavbar() {
               Bogfelts
             </h1>
           </Link>
-          <BurderWrapper style={{marginRight:"50px"}} className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
+          <BurderWrapper style={{marginRight:"100px"}} className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
             <BurgerIcon />
           </BurderWrapper>
           <UlWrapper className="flexNullCenter">

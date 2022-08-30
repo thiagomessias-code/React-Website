@@ -61,7 +61,7 @@ class About extends React.Component {
               </AddLeftInner>
             </AddLeft>
             <AddRight>
-              <h4 className="font15 semiBold">Joakim Bogfefelts</h4>
+              <h4 className="font15 semiBold">Joakim Bogfelts</h4>
               <h2 className="font40 extraBold">Co. Grundarer</h2>
               <p className="font15">
               Företaget grundades 1989 i Stokolm, Sverige, av elektroingenjören Joakim Bogfelts. Företaget startade i en liten verkstad i hans hem när han gick på college och är idag det största offentliga belysningsunderhållsföretaget i landet, även ledande inom försäljning av el. produkter, med 6 filialer och mer än 120 anställda. 
