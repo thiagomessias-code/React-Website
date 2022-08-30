@@ -1,7 +1,7 @@
 import React from 'react'
 import SlideImage1 from "../../assets/img/1.jpg";
 import AddImage1 from "../../assets/img/group-1.jpg"
-import {AddLeft,AddLeftInner,AddRight,Advertising,ButtonsRow,ImgWrapper,} from './style'
+import {AddLeft,AddLeftInner,AddRight,Advertising,ButtonsRow,Container,ImgWrapper,} from './style'
 
 import Perfil from "../../assets/img/projects/perfil.jpg";
 import FullButton from "../../components/Buttons/FullButton";
@@ -26,7 +26,8 @@ class About extends React.Component {
              
                     <div class="content-column col-md-6 col-sm-12 col-xs-12">
                         <div class="inner-column">
-                            <div class="sec-title">
+                      
+                        <div class="sec-title">
                                 <div class="title">Om oss</div>
                                 <h2>Vi är bäst på det vi gör.</h2>
                             </div>

@@ -1,7 +1,5 @@
 import styled from "styled-components";
-
-
-
+ 
 export const Advertising = styled.div`
   padding: 100px 0;
   margin: 100px 0;
