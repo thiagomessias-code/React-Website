@@ -1,6 +1,5 @@
 import React from "react";
 import {
-    ButtonInput,
     ContactImgBox,
     Contacts,
     HeaderInfo,
@@ -18,7 +17,7 @@ export default function Contact() {
             <div className="lightBg">
                 <div className="container">
                     <HeaderInfo>
-                        <h1 className="font40 extraBold">Kontakta oss</h1>
+                        <h1 className="font40 extraBold mt-4">Kontakta oss</h1>
                         <p className="font13">
                             Tvivlar, förslag eller vill bli en del av vårt team. Hör av dig via mail eller
                             telefon.

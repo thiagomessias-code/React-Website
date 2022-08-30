@@ -28,7 +28,7 @@ class About extends React.Component {
                         <div class="inner-column">
                       
                         <div class="sec-title">
-                                <div class="title">Om oss</div>
+                                <div class="title mt-4">Om oss</div>
                                 <h2>Vi är bäst på det vi gör.</h2>
                             </div>
                             <div class="text font20" >Bogfelts har mångårig och gedigen erfarenhet av både små och stora entreprenader inom belysningsteknik. Med branscherfarenhet sedan 1989 har vi bred kompetens inom verksamheten med god kännedom om kundens behov och önskemål för ett välfungerande samarbete. Vi erbjuder kunden en optimerad totallösning för en kostnadseffektiv och driftsäker belysningsanläggning.</div>
