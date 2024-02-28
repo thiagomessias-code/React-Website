@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Content,BurderWrapper,NavInner,UlWrapper,UlWrapperRight,Wrapper } from "./TopStyle";
+import { BurderWrapper,NavInner,UlWrapper,UlWrapperRight,Wrapper } from "./TopStyle";
 
 // Components
 import Sidebar from "../Nav/Sidebar";
